@@ -1,0 +1,11 @@
+schema_version: 20180708
+name: erlim_zrh
+version: 0.0.2
+runtime: python
+entrypoint: /python/bin/fdk /function/func.py handler
+memory: 1024
+timeout: 300
+config:
+  percentage: "90"
+  regions: eu-zurich-1
+  topic_id: ocid1.onstopic.oc1.iad.aaaaaaaayncu663ewt4vb672s4l5czagrrizk7tnpl7urytargb2oyfegpuq

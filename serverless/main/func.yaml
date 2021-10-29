@@ -1,0 +1,10 @@
+schema_version: 20180708
+name: main_erlim
+version: 0.0.2
+runtime: python
+entrypoint: /python/bin/fdk /function/func.py handler
+memory: 256
+timeout: 300
+config:
+  bucket_name: hur-buck-99
+  fn_prefix: erlim_
